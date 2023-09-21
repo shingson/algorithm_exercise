@@ -22,7 +22,7 @@ public class Algorithm_7 {
                 countChinese++;
             } else if (s.matches("[a-zA-Z]")) {
                 countLetter++;
-            } else if (s.matches("[\\s]")) {
+            } else if (s.matches("[\s]")) {
                 countSpace++;
             } else if (s.matches("[0-9]")) {
                 countMath++;
